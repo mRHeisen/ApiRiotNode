@@ -1,25 +1,26 @@
 {
-  "name": "League of Trabson",
+  "name": "apinode",
   "version": "1.0.0",
-  "description": "League of Trabson",
+  "description": "API em node.js acessando API RIOT GAMES",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/mRHeisen/ApiRiotNode.git"
   },
   "author": "Miguel Avilla",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/mRHeisen/ApiRiotNode/issues"
   },
-  "homepage": "",
-  "dependencies": {
-    "body-parser": "^1.14.1",
-    "consign": "^0.1.2",
-    "express": "^4.13.3"
-  }
+  "homepage": "https://github.com/mRHeisen/ApiRiotNode#readme"
 }
