@@ -5,7 +5,7 @@ module.exports = function(app){
      app.route('/v1/invocador')
         .get(api.buscaInvocador);
 
-     app.route('/v1/campeos')
+     app.route('/v1/campeoes')
         .get(api.buscaCampeos);
 
      app.route('/v1/stats')

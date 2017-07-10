@@ -2,7 +2,7 @@ var https =  require('https');
 //Cria objeto javaScrpit em branco
 var api = {};
 
-const API_KEY = 'RGAPI-dd97704f-7931-4fbc-b895-eda9ae9eccb4';
+const API_KEY = 'RGAPI-4dee1f0b-2371-4a20-bb7c-84d93a020bae';
 
 //busca Todos campeos
 api.buscaCampeos = function(req, res){
